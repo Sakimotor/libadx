@@ -1,8 +1,8 @@
-LibADX (c)2012 Josh PH3NOM Pearson
+LibADX (c) 2012-2013 Josh PH3NOM Pearson
 decoder algorithm based on adx2wav (c) BERO 2001
 
 LibADX is a library for decoding ADX audio files using the
-Kallisti:OS development environment, intended for use only
+KallistiOS development environment, intended for use only
 on the Sega Dreamcast game console.
 
 LibADX features full implementation of the ADX looping function.
