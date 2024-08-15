@@ -1,4 +1,6 @@
-LibADX (c) 2012-2013 Josh PH3NOM Pearson
+LibADX (c) 2011-2013 Josh PH3NOM Pearson
+
+
 decoder algorithm based on adx2wav (c) BERO 2001
 
 LibADX is a library for decoding ADX audio files using the
@@ -19,3 +21,8 @@ LibADX/Makefile
 The example player uses a hard-coded file name, so make sure
 to include a "sample.adx" on the root of the /cd/, or modify
 the source libADXplay.c to load a different file.
+
+** This File is a part of Dreamcast Media Center
+** (C) Josh "PH3NOM" Pearson 2011
+
+

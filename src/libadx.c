@@ -1,12 +1,42 @@
+/* LibADX for KallistiOS ##version##
+ *
+ * Copyright (C) 2011-2013 Josh 'PH3NOM' Pearson
+ * Copyright (C) 2024 The KOS Team and contributors
+ *
+ * This code was contributed to KallistiOS (KOS) by Mickaël Cardoso (SiZiOUS).
+ * It was originally made by Josh Pearson (PH3NOM). Some portions of code were
+ * made by BERO. Sightly improved by Headshotnoby and Ian Micheal.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright notice, this
+ * list of conditions and the following disclaimer.
+ *
+ * 2. Redistributions in binary form must reproduce the above copyright notice,
+ * this list of conditions and the following disclaimer in the documentation
+ * and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ * OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
 /*
-   This File is a part of Dreamcast Media Center
-   ADXCORE (c)2012-2013 Josh "PH3NOM" Pearson
-   ph3nom.dcmc@gmail.com
-   decoder algorithm optimized for stereo streams (C) PH3NOM
-   decoder algorithm: adv2wav(c)2001 BERO
-    http://www.geocities.co.jp/Playtown/2004/
-    bero@geocities.co.jp
-    adx info from: http://ku-www.ss.titech.ac.jp/~yatsushi/adx.html
+    ADXCORE (C) 2011-2013 Josh "PH3NOM" Pearson <ph3nom.dcmc@gmail.com>
+    Decoder algorithm optimized for stereo streams (C) PH3NOM
+
+    Decoder algorithm: adv2wav (C) 2001 BERO <bero@geocities.co.jp>
+    See: http://www.geocities.co.jp/Playtown/2004/
+
+    ADX info from: http://ku-www.ss.titech.ac.jp/~yatsushi/adx.html
 */
 
 #include <stdlib.h>
