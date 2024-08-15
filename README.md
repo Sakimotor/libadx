@@ -26,13 +26,17 @@ This library can be installed using 2 ways:
 1. Using the `libADX` KallistiOS Ports (in `kos-ports`);
 2. Cloning this repository directly in your `${KOS_BASE}/addons` directory.
    In that case you just have to enter this directory and build the library
-   with `make`.
+   with `make install`.
 
 ## Usage
 
 An example using this library is located here:
 
     $KOS_BASE/examples/dreamcast/sound/hello-adx
+
+## Uninstallation
+
+If needed, you can uninstall the library by entering `make clean`.
 
 ## Acknowledgments
 

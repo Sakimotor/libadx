@@ -13,6 +13,6 @@ clean:
 	@cd ./src; \
 	$(MAKE) clean
 
-prepareport:
+install:
 	@cd ./src; \
-	$(MAKE) prepareport
+	$(MAKE) install
