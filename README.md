@@ -9,9 +9,10 @@ audio files.
 development environment, intended for use only on the Sega Dreamcast game
 console.
 
-ADX is a proprietary audio container and compression format developed by CRI
-Middleware specifically for use in video games; it is derived from ADPCM but
-with lossy compression. [Learn more here](https://en.wikipedia.org/wiki/ADX_(file_format)).
+ADX is a proprietary audio container and compression format developed by
+[CRI Middleware](https://www.criware.com/en/index.html) specifically for use
+in video games; it is derived from ADPCM but with lossy compression.
+[Learn more here](https://en.wikipedia.org/wiki/ADX_(file_format)).
 
 This library features full implementation of the ADX looping function.
 The available functions include `play`, `pause`, `stop` and `restart`.
@@ -33,6 +34,8 @@ This library can be installed using 2 ways:
 An example using this library is located here:
 
     $KOS_BASE/examples/dreamcast/sound/hello-adx
+
+To encode ADX files, you can use [radx_encode](https://github.com/Isaac-Lozano/radx).
 
 ## Uninstallation
 
