@@ -1,28 +1,56 @@
-LibADX (c) 2011-2013 Josh PH3NOM Pearson
+# LibADX
 
+A library for decoding [ADX](https://en.wikipedia.org/wiki/ADX_(file_format))
+audio files.
 
-decoder algorithm based on adx2wav (c) BERO 2001
+## Introduction
 
-LibADX is a library for decoding ADX audio files using the
-KallistiOS development environment, intended for use only
-on the Sega Dreamcast game console.
+**LibADX** is a library for decoding ADX audio files using the KallistiOS
+development environment, intended for use only on the Sega Dreamcast game
+console.
 
-LibADX features full implementation of the ADX looping function.
-The functions available include play, pause, stop, restart.
+ADX is a proprietary audio container and compression format developed by CRI
+Middleware specifically for use in video games; it is derived from ADPCM but
+with lossy compression. [Learn more here](https://en.wikipedia.org/wiki/ADX_(file_format)).
 
-This library is completely free to modify and or redistribute.
+This library features full implementation of the ADX looping function.
+The available functions include `play`, `pause`, `stop` and `restart`.
 
-LibADX is a static library, build the library with the makefile:
-LibADX/LibADX/Makefile
+This library is intended to be used as a KallistiOS Port (`kos-ports`) but
+it can be used as a KallistiOS add-on as well.
 
-Then build the example player:
-LibADX/Makefile
+## Installation
 
-The example player uses a hard-coded file name, so make sure
-to include a "sample.adx" on the root of the /cd/, or modify
-the source libADXplay.c to load a different file.
+This library can be installed using 2 ways:
 
-** This File is a part of Dreamcast Media Center
-** (C) Josh "PH3NOM" Pearson 2011
+1. Using the `libADX` KallistiOS Ports (in `kos-ports`);
+2. Cloning this repository directly in your `${KOS_BASE}/addons` directory.
+   In that case you just have to enter this directory and build the library
+   with `make`.
 
+## Usage
 
+An example using this library is located here:
+
+    $KOS_BASE/examples/dreamcast/sound/hello-adx
+
+## Acknowledgments
+
+This library was initially made for the **Dreamcast Media Center** application 
+that can be found [here](https://github.com/PH3NOM-PRO/dreamcast-media-center).
+
+* **Josh Pearson** ([PH3NOM](https://github.com/PH3NOM-PRO/)): Decoder algorithm
+  optimized for stereo streams; and of course **LibADX** itself.
+* [BERO](http://www.geocities.co.jp/Playtown/2004/): Decoder algorithm, written
+  for the `adx2wav` utility.
+* **Atsushi Yamazaki**: CRI ADX reverse engineering, which is available
+  [here](http://web.archive.org/web/20060818165032/http://ku-www.ss.titech.ac.jp/~yatsushi/adx.html).
+* [Headshotnoby](https://github.com/headshot2017) and 
+  [Ian Micheal](https://github.com/ianmicheal): Small fix for modern KallistiOS.
+* [Mickaël Cardoso](http://www.mickael-cardoso.fr/) ([SiZiOUS](http://sizious.com/)):
+  Small refactoring.
+
+## License
+
+This library is completely free to modify and or redistribute; see the
+[LICENSE](LICENSE) file for details.
