@@ -1,5 +1,7 @@
 /* LibADX for KallistiOS ##version##
  *
+ * Direct Access to Sound Driver
+ * 
  * Copyright (C) 2011-2013 Josh 'PH3NOM' Pearson
  * Copyright (C) 2024 The KOS Team and contributors
  *
