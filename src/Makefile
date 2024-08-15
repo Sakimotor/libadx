@@ -1,5 +1,5 @@
-# libfastmem for KallistiOS ##version##
-# LibADX (C) Josh PH3NOM Pearson 2011-2013
+# LibADX for KallistiOS ##version##
+# (C) Josh PH3NOM Pearson 2011-2013
 #
 # Makefile
 
