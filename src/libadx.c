@@ -1,5 +1,7 @@
 /* LibADX for KallistiOS ##version##
  *
+ * ADX Decoder Library
+ * 
  * Copyright (C) 2011-2013 Josh 'PH3NOM' Pearson
  * Copyright (C) 2024 The KOS Team and contributors
  *
@@ -31,8 +33,8 @@
 
 /*
     ADXCORE (C) 2011-2013 Josh "PH3NOM" Pearson <ph3nom.dcmc@gmail.com>
-    Decoder algorithm optimized for stereo streams (C) PH3NOM
 
+    Decoder algorithm optimized for stereo streams (C) PH3NOM
     Decoder algorithm: adv2wav (C) 2001 BERO <bero@geocities.co.jp>
     See: http://www.geocities.co.jp/Playtown/2004/
 

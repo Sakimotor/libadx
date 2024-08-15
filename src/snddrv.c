@@ -1,5 +1,7 @@
 /* LibADX for KallistiOS ##version##
  *
+ * Direct Access to Sound Driver
+ *
  * Copyright (C) 2011-2013 Josh 'PH3NOM' Pearson
  * Copyright (C) 2024 The KOS Team and contributors
  *
@@ -29,7 +31,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-/*
+/*    
     To anyone looking at this code:
 
     This driver runs in its own thread on the SH4.
