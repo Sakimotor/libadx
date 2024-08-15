@@ -45,7 +45,7 @@
 
 #include <kos/thread.h>
 
-#include "libadx.h"
+#include "adx.h"
 #include "snddrv.h"
 
 #define BASEVOL      0x4000
